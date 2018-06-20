@@ -1,0 +1,18 @@
+{
+  "name": "nix",
+  "version": "0.0.1",
+  "description": "nix smart contract in truffle",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yasir iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "1.10.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  }
+}
