@@ -1,7 +1,7 @@
 pragma solidity ^0.4.23;
 
-import  "./../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
-import  "./../node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
+import  "./Ownable.sol";
+import  "./StandardToken.sol";
 
 
 contract nix is Ownable, StandardToken {
