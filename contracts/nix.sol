@@ -26,8 +26,8 @@ contract nix is Ownable, StandardToken {
         balances[owner] = 150000000 ether;
         emit Transfer(address(0),owner, balances[owner]);
 
-        reserveTokensLockTime = 365 days; //year lock time
-        reserveTokenAddress = 0x0123; //TODO change address before deploy
+        reserveTokensLockTime = 182 days; //year lock time
+        reserveTokenAddress = 0xf6c5dE9E1a6b36ABA36c6E6e86d500BcBA9CeC96; //TODO change address before deploy
         balances[reserveTokenAddress] = 350000000 ether;
         emit Transfer(address(0),reserveTokenAddress, balances[reserveTokenAddress]);
     }
